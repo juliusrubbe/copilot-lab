@@ -103,4 +103,14 @@ The **trigger switcher** button is present at the **Trigger** node of every 
 **Authoring canvas controls** - You can use these controls to navigate the authoring canvas, which can become large for extensive topics. The included controls are a map of the canvas, zoom, hand, selection, and reset.
 
 
+** **
+Hier geht es zum nächsten Task: [Task 04 – Copilot-Topic](task04.md)
 
+Hier findest du alle Tasks des Workshops:
+
+1. [Task 01 – Prompt-Agent](task01.md)  
+2. [Task 02 – Unternehmensdaten](task02.md)  
+3. [Task 03 – Pre-built Agent](task03.md)  
+4. [Task 04 – Copilot-Topic](task04.md)  
+5. [Task 05 – Knowledge & Boosting](task05.md)  
+6. [Task 06 – Question / Message / Condition](task06.md)
