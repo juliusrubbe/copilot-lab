@@ -3,7 +3,9 @@
 Finde innerhalb des neuen Assistenten den Reiter “**Wissen**” und drück “**Wissen hinzufügen**”
 ![image6.png](assets/img/image6.png)
 
-Wähle “**SharePoint”** aus und füge folgenden Link hinzu, hierzu Link einfügen, oben “**Hinzufügen**” drücken und dann die Eingabe durch das untere “**Hinzufügen**” bestätigen:
+Wähle “**SharePoint”** aus und füge folgenden Link hinzu: "https://m365x29017473.sharepoint.com/sites/Retail-Operations/Freigegebene%20Dokumente/"
+
+Hierzu Link einfügen URL in Kasten eintragen, oben “**Hinzufügen**” drücken und dann die Eingabe durch das untere “**Hinzufügen**” bestätigen:
 
 ![image7.png](assets/img/image7.png)
 
@@ -34,7 +36,7 @@ Wir haben jetzt erfolgreich unseren Agenten mit internen Daten angereichert! Las
 
 
 ** **
-**Als ****nächstes**** ****betrachten**** ****wir**** ****bereits**** ****konfigurierten**** ****Agenten****, da ****dieser**** auf Englisch ****ist****, ****wechseln**** ****wir**** in ****Englische****:**
+**Als nächstes betrachten wir bereits konfigurierten Agenten, da dieser auf Englisch ist, wechseln wir in Englische:**
 
 
 ** **
