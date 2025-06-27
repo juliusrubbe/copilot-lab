@@ -3,7 +3,7 @@
 Finde innerhalb des neuen Assistenten den Reiter “**Wissen**” und drück “**Wissen hinzufügen**”
 ![image6.png](assets/img/image6.png)
 
-Wähle “**SharePoint”** aus und füge folgenden Link hinzu: "https://m365x29017473.sharepoint.com/sites/Retail-Operations/Freigegebene%20Dokumente/"
+Wähle “**SharePoint”** aus und füge folgenden Link hinzu: **"https://m365x29017473.sharepoint.com/sites/Retail-Operations/Freigegebene%20Dokumente/"**
 
 Hierzu Link einfügen URL in Kasten eintragen, oben “**Hinzufügen**” drücken und dann die Eingabe durch das untere “**Hinzufügen**” bestätigen:
 
