@@ -1,6 +1,6 @@
 # Aufgabe 04: Mit Copilot das Thema **„Schnelles Leasing-Angebot“** erstellen
 
-Mit Microsoft Copilot Studio kannst du Themen per natürlicher Sprache in wenigen Sekunden anlegen. Dabei erzeugt Copilot automatisch die benötigten Knoten und Antworten – ideal, um Autor*innen Zeit zu sparen.
+Mit Microsoft Copilot Studio kannst du Themen per natürlicher Sprache in wenigen Sekunden anlegen. Dabei erzeugt Copilot automatisch die benötigten Knoten und Antworten – ideal, um Zeit zu sparen.
 
 Wähle oben in der Leiste **Themen**.
 
@@ -11,11 +11,28 @@ Klicke auf **Thema hinzufügen** und dann auf **Aus Beschreibung mit Copilot ers
 ![image19.jpeg](assets/img/image19.jpeg)
 
 Gib im Dialog Folgendes ein:
+ **Name des Themas**: „Schnelles Leasing-Angebot“
+**Thema erstellen, um:**:
+```plaintext
+Erstelle ein Topic „Schnelles Angebot“.
 
-| Feld | Eingabe |
-|------|---------|
-| **Name des Themas** | **„Schnelles Leasing-Angebot“** |
-| **Thema erstellen, um:** | **„Ermögliche den Nutzer*innen, schnell ein Leasing-Angebot zu erhalten. Verwende die Triggerphrasen ‚Leasingangebot‘, ‚Leasing Angebot‘, ‚Surface Leasing‘, ‚Lease quote‘. Frage nacheinander: 1) gewünschtes Surface-Modell (Buttons: Laptop 6, Pro 10, Studio 2), 2) Stückzahl, 3) Laufzeit (12 oder 24 Monate). Gib anschließend eine kurze Zusammenfassung der drei Antworten und biete an, die Leasing-Konditionen anzuzeigen.“** |
+Triggerphrasen: „Leasingangebot“, „Gerät kaufen“, „Surface Leasing“, „Lease quote“.
+
+Frage der Reihe nach:
+1) gewünschtes Surface-Modell (Freitext, erkenne Laptop 6 | Pro 10 | Studio 2, sonst Vorschläge nennen)
+2) Kauf oder Leasing? (Buttons „Kaufen“, „Leasen“)  → Variable {mode}
+3) Wenn {mode}=Leasen: Laufzeit (Buttons 12 / 24 Monate) → Variable {term}
+4) Stückzahl → Variable {qty}
+5) „Haben Sie weitere Wünsche oder Zubehörangaben?“ (Freitext, optional) → Variable {notes}
+
+Antwort:
+• Wenn Leasing: „Vielen Dank! Für {qty} × {device} über {term} Monate erstellen wir ein Leasing-Angebot. Wir melden uns zeitnah mit den Konditionen.“  
+• Wenn Kauf: „Vielen Dank! Für {qty} × {device} als Kaufangebot. Wir melden uns zeitnah mit den Konditionen.
+
+Gib in beiden Fällen eine kurze Zusammenfassung aller Eingaben (inkl. {notes}, falls vorhanden) in der Abschlussnachricht aus. Keine weiteren Berechnungen oder externen Daten.
+ |
+```
+
 
 Wähle **Erstellen** unten rechts im Dialog. ![image20.png](assets/img/image20.png)
 

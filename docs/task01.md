@@ -1,10 +1,16 @@
 # Task 01: Erstelle einen Agenten mit einem Prompt
 
-Gehe auf folgenden Link: [Copilot Studio](https://copilotstudio.microsoft.com/)
+**Öffnen eines Inkognito-Fensters in deinem Browser (Edge: InPrivate, Chrome: Inkognito), um sicherzustellen, dass du nicht mit deinem persönlichen Microsoft-Konto angemeldet bist.**
 
-Anmeldung mit den vorliegenden Zugangsdaten. 
+Gehe auf folgenden Link: [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com/)
 
-Während du für die Dauer dieses Labors den vorgefertigten Agenten nutzt, wollen wir uns ansehen, wie du mit Copilot Studio ganz schnell einen eigenen Agenten mit grundlegenden Einstellungen über Prompts anlegst.
+Anmeldung mit den vorliegenden Zugangsdaten.
+
+Bei manchen Accounts muss die Testversion gestartet werden, hierzu auf den Button „**Testversion starten**“ klicken.Falls dies nicht aufkommt, ist der Account bereits aktiviert.
+
+![image38.png](assets/img/image38.png)
+
+Wir wollen uns ansehen, wie du mit Copilot Studio ganz schnell einen eigenen Agenten mit grundlegenden Einstellungen über Prompts anlegst.
 
 Wähle im linken Menü „**Startseite**“ aus.
 
