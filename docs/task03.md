@@ -80,7 +80,9 @@ Microsoft Copilot Studio makes it easier for you to build basic to advanced agen
 
 **Review the topic user interface**
 
-Now that you've looked at your first topic, you can explore the authoring user interface (UI) to become more familiar with it.
+** **
+
+**Now that you've looked at your first topic, you can explore the authoring user interface (UI) to become more familiar with it.**
 
 ![image17.jpeg](assets/img/image17.jpeg)
 

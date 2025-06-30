@@ -11,6 +11,9 @@ Select **Add a topic**, then select **Create from description with Copilot**.
 ![image19.jpeg](assets/img/image19.jpeg)
 
 Enter the following in the new dialog:
+Name your topic: **"Pizza Order"**
+Create a topic to: **"Let someone order a pizza, choosing from common pizza types and how many they want to order. For each question, add 2 message variations."**
+
 
 Select **Create** in the lower-right corner of the dialog.   ![image20.jpeg](assets/img/image20.jpeg)
 

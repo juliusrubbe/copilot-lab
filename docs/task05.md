@@ -19,6 +19,7 @@ Knowledge sources
 Knowledge in Microsoft Copilot Studio allows you to add enterprise data from Power Platform, Dynamics 365, and external systems, so your agents can provide relevant information and insights for your end users. In addition, knowledge can be incorporated with generative answers in agents. Published agents that contain knowledge use the configured knowledge sources to ground themselves.
 
 Supported knowledge sources:
+
 | **Name**                          | **Quelle**  | **Beschreibung**                                                                                                   | **# Inputs (Q&A)**                                      | **Auth**                                 |
 |-----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------|
 | Public Website                    | External    | Searches the query input on Bing, only returns results from provided websites                                       | 4 public URLs (e.g. microsoft.com)                      | None                                     |
@@ -27,8 +28,6 @@ Supported knowledge sources:
 | OneDrive for Business             | Internal    | Connects to a OneDrive URL, uses GraphSearch to return results                                                      | 4 URLs                                                  | Copilot user’s Entra ID                  |
 | Dataverse                         | Internal    | Connects to the connected Dataverse environment, uses retrieval-augmented generation                                | 2 Dataverse sources (max 15 Tables je Quelle)           | Copilot user’s Entra ID                  |
 | Enterprise data (Graph connections) | Internal    | Connects to the connected Dataverse environment, uses retrieval-augmented generation                                | 2 pro Agent                                            | Copilot user’s Entra ID                  |
-
-
 
 
 
