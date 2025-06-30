@@ -18,6 +18,9 @@ Bestätige das nutzen der Internetquelle.
 
 ![image3.png](assets/img/image3.png)
 
+Stelle sicher, dass unser Bot auf deutsch ist: 
+![image36.png](assets/img/image36.png)
+
 Gib kurze Antworten auf seine Fragen, ganz nach Belieben. Die Fragen, die gestellt werden, und deren Reihenfolge können gegenüber dem unten gezeigten Screenshot abweichen. ![image4.png](assets/img/image4.png)
 
 Beobachte, wie deine konfigurierten Einstellungen im rechten Bereich zusammengefasst angezeigt werden.

@@ -20,7 +20,8 @@ Man kann immer direkt in der Umgebung den Agenten Testen:
 
 ![image9.jpeg](assets/img/image9.jpeg)
 
-Nachdem
+Bei bereits getesteten Bots, 4-5 Sekunden nach dem letzten Speichern den Test Bereich neu laden: 
+![image35.png](assets/img/image35.png)
 
 In dem hinzugefügten SharePoint liegen Informationen zu den Aufträgen aus Q1 sowie der Vertragsbedingungen der Contoso Electronics. Wir testen den Bot mit folgender **Eingabe**: **“****Was war unsere größter Auftrag in Q1****?”**
 
@@ -32,11 +33,7 @@ Wir können jetzt zusätzlich Rückfragen dazu stellen und sehen immer Transpare
 
 
 
-
-
-
-
-Wir haben jetzt erfolgreich unseren Agenten mit internen Daten angereichert! Lasst uns jetzt einen komplizierteren Agenten betrachten.
+Wir haben jetzt erfolgreich unseren Agenten mit internen Daten angereichert! Lasst uns jetzt weitere Möglichkeiten erkunden, wie wir den Agenten erweitern können.
 
 
 
