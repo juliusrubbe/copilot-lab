@@ -16,7 +16,7 @@ Gib im Dialog Folgendes ein:
 ```plaintext
 Erstelle ein Topic „Schnelles Angebot“.
 
-Triggerphrasen: „Leasingangebot“, „Gerät kaufen“, „Surface Leasing“, „Lease quote“.
+Triggerphrasen: „Schnelles Angebot“, „Gerät kaufen“, „Surface Leasing“, „Leasingangebot“.
 
 Frage der Reihe nach:
 1) gewünschtes Surface-Modell (Freitext, erkenne Laptop 6 | Pro 10 | Studio 2, sonst Vorschläge nennen)
@@ -38,7 +38,7 @@ Wähle **Erstellen** unten rechts im Dialog. ![image20.png](assets/img/image20
 
 Testet gerne erneut den Bot, hierzu 4-5 Sekunden nach dem letzten Speichern den Test Bereich neu laden: 
 ![image35.png](assets/img/image35.png)
-Gib im Dialog Folgendes ein: "Leasing Angebot" und nutze dann die Buttons, um die Fragen zu beantworten.
+Gib im Dialog Folgendes ein: "Schnelles Angebot" und nutze dann die Buttons, um die Fragen zu beantworten.
 
 
 ** **
@@ -50,4 +50,5 @@ Hier findest du alle Tasks des Workshops:
 2. [Task 02 – Unternehmensdaten](task02.md)  
 3. [Task 03: Überblick über die Benutzeroberfläche von Microsoft Copilot Studio](task03.md)  
 4. [Task 04 – Copilot-Topic](task04.md)  
-5. [Task 05: Ausblick Wissensquellen](task05.md)  
+5. [Task 05: Ausblick Wissensquellen](task05.md)
+6. [Task 06: Ausblick Kanäle](task06.md)  
