@@ -1,52 +1,37 @@
-# Task 04: Use Copilot to create a topic
+# Aufgabe 04: Mit Copilot das Thema **„Schnelles Leasing-Angebot“** erstellen
 
-You can quickly create and edit topics in Copilot Studio using natural language by describing what you want to do. Copilot Studio will automatically configure the different node types and conversational responses. This feature can drastically reduce authoring time.
+Mit Microsoft Copilot Studio kannst du Themen per natürlicher Sprache in wenigen Sekunden anlegen. Dabei erzeugt Copilot automatisch die benötigten Knoten und Antworten – ideal, um Autor*innen Zeit zu sparen.
 
-Select **Topics** on the top bar.
+Wähle oben in der Leiste **Themen**.
 
 ![image18.jpeg](assets/img/image18.jpeg)
 
-Select **Add a topic**, then select **Create from description with Copilot**.
+Klicke auf **Thema hinzufügen** und dann auf **Aus Beschreibung mit Copilot erstellen**.
 
 ![image19.jpeg](assets/img/image19.jpeg)
 
-Enter the following in the new dialog:
-Name your topic: **"Pizza Order"**
-Create a topic to: **"Let someone order a pizza, choosing from common pizza types and how many they want to order. For each question, add 2 message variations."**
+Gib im Dialog Folgendes ein:
 
+| Feld | Eingabe |
+|------|---------|
+| **Name des Themas** | **„Schnelles Leasing-Angebot“** |
+| **Thema erstellen, um:** | **„Ermögliche den Nutzer*innen, schnell ein Leasing-Angebot zu erhalten. Verwende die Triggerphrasen ‚Leasingangebot‘, ‚Leasing Angebot‘, ‚Surface Leasing‘, ‚Lease quote‘. Frage nacheinander: 1) gewünschtes Surface-Modell (Buttons: Laptop 6, Pro 10, Studio 2), 2) Stückzahl, 3) Laufzeit (12 oder 24 Monate). Gib anschließend eine kurze Zusammenfassung der drei Antworten und biete an, die Leasing-Konditionen anzuzeigen.“** |
 
-Select **Create** in the lower-right corner of the dialog.   ![image20.jpeg](assets/img/image20.jpeg)
+Wähle **Erstellen** unten rechts im Dialog. ![image20.png](assets/img/image20.png)
 
-Observe the nodes in the canvas it immediately created.
+Testet gerne erneut den Bot, hierzu 4-5 Sekunden nach dem letzten Speichern den Test Bereich neu laden: 
+![image35.png](assets/img/image35.png)
+Gib im Dialog Folgendes ein: "Leasing Angebot" und nutze dann die Buttons, um die Fragen zu beantworten.
 
-If the **Edit with Copilot** pane is not already open, select **Copilot** at the top of the canvas.
-
-![image21.jpeg](assets/img/image21.jpeg)
-
-In the **Edit with Copilot** pane, under **What do you want to do?**, add the following instructions, then select **Update**.
-
-Ask a question to get the user's name, address, and phone number after their order, before providing a friendly confirmation message.
-
-![image22.jpeg](assets/img/image22.jpeg)
-
-![image23.jpeg](assets/img/image23.jpeg)
-
-Your nodes will likely not match the previous screenshot.
-
-The **Edit with Copilot** pane also shows what updates have been made and provides examples for what else you can do.
-
-Select **Save** in the upper-right part of the canvas to save the topic.
-
-![image24.jpeg](assets/img/image24.jpeg)
 
 ** **
-Hier geht es zum nächsten Task: [Task 05 – Knowledge & Boosting](task05.md)
+Hier geht es zum nächsten Task: [Task 05: Ausblick Wissensquellen](task05.md)
 
 Hier findest du alle Tasks des Workshops:
 
 1. [Task 01 – Prompt-Agent](task01.md)  
 2. [Task 02 – Unternehmensdaten](task02.md)  
-3. [Task 03 – Pre-built Agent](task03.md)  
+3. [Task 03: Überblick über die Benutzeroberfläche von Microsoft Copilot Studio](task03.md)  
 4. [Task 04 – Copilot-Topic](task04.md)  
-5. [Task 05 – Knowledge & Boosting](task05.md)  
+5. [Task 05: Ausblick Wissensquellen](task05.md)  
 6. [Task 06 – Question / Message / Condition](task06.md)

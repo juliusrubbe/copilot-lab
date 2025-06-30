@@ -1,0 +1,86 @@
+Select **Agents** in the leftmost menu.
+
+![image12.jpeg](assets/img/image12.jpeg)
+
+Select **Contoso Customer Assistant**.
+
+![image13.jpeg](assets/img/image13.jpeg)
+
+This is the pre-built agent you imported.
+
+Don't use the one you created, as it won't have the necessary configurations.
+
+You can always open and close the **Test your agent** pane by selecting **Test** in the upper-right corner of the page.
+
+![image9.jpeg](assets/img/image9.jpeg)
+
+From this pane, you can immediately test any changes you save while updating the agent's configurations.
+
+You'll see a message sent to you by the agent. This message is created from a **Conversation Start** topic, which begins automatically. You'll look at this topic later.
+
+In the bottom text box of the **Test your agent** pane, enter Hello, then select **Enter**.
+
+![image14.jpeg](assets/img/image14.jpeg)
+
+
+
+You can select messages in the test pane to get redirected to the exact topic and node it was used in. You'll learn about topics and nodes shortly!
+
+![image15.jpeg](assets/img/image15.jpeg)
+
+
+
+
+
+# Task 04: Use Copilot to create a topic
+
+You can quickly create and edit topics in Copilot Studio using natural language by describing what you want to do. Copilot Studio will automatically configure the different node types and conversational responses. This feature can drastically reduce authoring time.
+
+Select **Topics** on the top bar.
+
+![image18.jpeg](assets/img/image18.jpeg)
+
+Select **Add a topic**, then select **Create from description with Copilot**.
+
+![image19.jpeg](assets/img/image19.jpeg)
+
+Enter the following in the new dialog:
+Name your topic: **"Pizza Order"**
+Create a topic to: **"Let someone order a pizza, choosing from common pizza types and how many they want to order. For each question, add 2 message variations."**
+
+
+Select **Create** in the lower-right corner of the dialog.   ![image20.jpeg](assets/img/image20.jpeg)
+
+Observe the nodes in the canvas it immediately created.
+
+If the **Edit with Copilot** pane is not already open, select **Copilot** at the top of the canvas.
+
+![image21.jpeg](assets/img/image21.jpeg)
+
+In the **Edit with Copilot** pane, under **What do you want to do?**, add the following instructions, then select **Update**.
+
+Ask a question to get the user's name, address, and phone number after their order, before providing a friendly confirmation message.
+
+![image22.jpeg](assets/img/image22.jpeg)
+
+![image23.jpeg](assets/img/image23.jpeg)
+
+Your nodes will likely not match the previous screenshot.
+
+The **Edit with Copilot** pane also shows what updates have been made and provides examples for what else you can do.
+
+Select **Save** in the upper-right part of the canvas to save the topic.
+
+![image24.jpeg](assets/img/image24.jpeg)
+
+** **
+Hier geht es zum nächsten Task: [Task 05 – Knowledge & Boosting](task05.md)
+
+Hier findest du alle Tasks des Workshops:
+
+1. [Task 01 – Prompt-Agent](task01.md)  
+2. [Task 02 – Unternehmensdaten](task02.md)  
+3. [Task 03 – ](task03.md)  
+4. [Task 04 – Copilot-Topic](task04.md)  
+5. [Task 05 – Knowledge & Boosting](task05.md)  
+6. [Task 06 – Question / Message / Condition](task06.md)

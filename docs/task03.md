@@ -1,108 +1,94 @@
-# Task 03: Test the pre-built agent
-
-Select **Agents** in the leftmost menu.
-
-![image12.jpeg](assets/img/image12.jpeg)
-
-Select **Contoso Customer Assistant**.
-
-![image13.jpeg](assets/img/image13.jpeg)
-
-This is the pre-built agent you imported.
-
-Don't use the one you created, as it won't have the necessary configurations.
-
-You can always open and close the **Test your agent** pane by selecting **Test** in the upper-right corner of the page.
-
-![image9.jpeg](assets/img/image9.jpeg)
-
-From this pane, you can immediately test any changes you save while updating the agent's configurations.
-
-You'll see a message sent to you by the agent. This message is created from a **Conversation Start** topic, which begins automatically. You'll look at this topic later.
-
-In the bottom text box of the **Test your agent** pane, enter Hello, then select **Enter**.
-
-![image14.jpeg](assets/img/image14.jpeg)
+# Task 03: Überblick über die Benutzeroberfläche von Microsoft Copilot Studio
 
 
+**Kurze Tour durch die Benutzeroberfläche**
 
-You can select messages in the test pane to get redirected to the exact topic and node it was used in. You'll learn about topics and nodes shortly!
+Microsoft Copilot Studio macht es dir leicht, von einfachen bis hin zu komplexen Agenten zu erstellen. Der folgende Abschnitt stellt die wichtigsten Seiten der Maker-Umgebung in Microsoft Copilot Studio vor.
 
-![image15.jpeg](assets/img/image15.jpeg)
-
-
-
-**Quick tour of the user interface**
-
-Microsoft Copilot Studio makes it easier for you to build basic to advanced agents. The following section reviews the main pages of the maker experience for Microsoft Copilot Studio.
 
 ![image16.jpeg](assets/img/image16.jpeg)
 
 **A**
 
-**Home** - Microsoft Copilot Studio home page where you can start creating new agents from. It contains the list of recent agents, a list of agent templates to get you started, and learning resources.
+**Startseite** - Microsoft Copilot Studio-Startseite, von der aus du neue Agenten anlegen kannst. Sie zeigt deine zuletzt verwendeten Agenten, Agentenvorlagen zum schnellen Einstieg und Lernressourcen.
 
-**Create** - This menu gives you the conversational agent creation experience.
+**Erstellen** - Dieses Menü öffnet die Oberfläche zum Erstellen eines neuen Conversational Agents.
 
-**Agents** - List of all the agents you have access to in the environment.
+**Agenten** - Liste aller Agenten, auf die du in der aktuellen Umgebung Zugriff hast.
 
-**Library** - List of connectors available for the extension of Microsoft first-party agents.
+**Bibliothek** - Auflistung verfügbarer Connectors, um Microsoft-eigene Agenten zu erweitern.
+
+---
 
 **B**
 
-**Overview** - Description of the agent, its instructions, and a quick view of its configuration (knowledge sources, topics, actions, publish status, and so on).
+**Übersicht** - Beschreibung des Agenten, seine Anweisungen und eine Schnellansicht seiner Konfiguration (Wissensquellen, Themen, Aktionen, Veröffentlichungsstatus usw.).
 
-**Knowledge** - Where you manage the agent knowledge sources (such as websites or files).
+**Wissen** - Hier verwaltest du die Wissensquellen des Agenten (Websites, Dateien usw.).
 
-**Topics** - Where you manage custom and system topics. Topics are the core building blocks of an agent. Topics can be seen as the agent competencies: they define how a conversational dialog plays out. Topics are discrete conversation paths that, when used together, allow users to have a conversation that feels natural and flows appropriately.
+**Themen** - Verwaltung von System- und benutzerdefinierten Themen. Themen sind die Kernbausteine des Agenten und definieren den Gesprächsverlauf.
 
-**Actions** - Where you manage actions. Actions are pieces of logic with inputs and outputs. They leverage Power Platform components such as connectors, Power Platform cloud flows, AI Builder custom prompts, or Bot Framework skills. Actions are useful to leverage generative AI to prompt the user for the necessary inputs as well as to summarize the output of the action in the desired format.
+**Aktionen** - Verwaltung von Aktionen (Logikblöcke mit Ein- und Ausgaben) auf Basis von Connectors, Cloudflows, AI Builder-Prompts oder Bot-Framework-Skills.
 
-**Analytics** - Where you can view metrics to monitor how well your agent is serving your users and identify ways to improve it.
+**Analysen** - Anzeige von Kennzahlen, um zu prüfen, wie gut der Agent Nutzende bedient, und um Optimierungspotenziale zu erkennen.
 
-**Channels** - Where you configure how your agent is made available to your users (for example, Teams or a website).
+**Kanäle** - Konfiguration, über welche Kanäle dein Agent bereitgestellt wird (z. B. Teams oder eine Website).
+
+---
 
 **C**
 
-**Environment** - Where you can identify the Power Platform environment you're working from. You would typically create and author an agent in a development environment and deploy it to test and production environments.
+**Umgebung** - Zeigt die Power-Platform-Umgebung an, in der du arbeitest. Üblicher Ablauf: Entwicklung → Test → Produktion.
+
+---
 
 **D**
 
-**Publish** - Where you can make the latest version of your agent available to your users. Apart from the test pane, changes are not reflected to your end users if you haven't published the agent.
+**Veröffentlichen** - Stellt die aktuelle Version deines Agenten den Endnutzenden bereit. Änderungen sind erst nach Veröffentlichung sichtbar (außer im Testbereich).
 
-**Settings** - Where you can manage your agent configuration (such as advanced settings, security, and language).
+**Einstellungen** - Verwaltung der Agentenkonfiguration (erweiterte Einstellungen, Sicherheit, Sprache usw.).
+
+---
 
 **E**
 
-**Test your agent** - Where you can immediately test your agent and your customizations, even without saving.
+**Agent testen** - Sofortiges Testen deines Agenten und deiner Anpassungen, auch ohne vorheriges Speichern.
 
 
 
-**Review the topic user interface**
+
+**Überblick über die Topic-Benutzeroberfläche**
 
 ** **
 
-**Now that you've looked at your first topic, you can explore the authoring user interface (UI) to become more familiar with it.**
+**Nachdem du dein erstes Thema geöffnet hast, kannst du die Authoring-UI erkunden, um dich damit vertraut zu machen.**
 
 ![image17.jpeg](assets/img/image17.jpeg)
 
-**Topic title** - The name of the topic you're currently editing, visible on the **Topics** page.
+**Thementitel** – Der Name des Themas, das du gerade bearbeitest; sichtbar auf der Seite **Themen**.
 
-**Productivity bar** - Where you have access to tools, such as cut, copy, paste, and delete for the nodes (**Messages**, **Questions**, and so on).
+**Produktivitätsleiste** – Hier findest du Werkzeuge wie Ausschneiden, Kopieren, Einfügen und Löschen für Knoten (**Nachrichten**, **Fragen** usw.).
 
-**Copilot**, **Comments**, **Variables**, **Topic checker**, **Details**, **Analytics**, **Open code editor**, and **Reset to default** buttons - This area includes: Copilot, which helps you create and update topics using descriptions in natural language; **Comments**, where authors can collaborate and leave comments on nodes; the **Variables** menu, to see the list of topic-level and global variables, and their runtime value in the test tab; **Topic checker**, which you can run anytime from the authoring canvas to check if errors have occurred in your topic that the platform can detect (and if left unresolved would prevent you from publishing the agent); and **Details**, to access the topic properties.
+**Copilot**, **Kommentare**, **Variablen**, **Themenprüfer**, **Details**, **Analysen**, **Code-Editor öffnen** und **Auf Standard zurücksetzen** –  
+In diesem Bereich findest du:  
+* **Copilot**, der dir hilft, Themen anhand natürlicher Sprache zu erstellen oder zu aktualisieren.  
+* **Kommentare**, in denen Autor*innen an Knoten zusammenarbeiten und Anmerkungen hinterlassen.  
+* Das Menü **Variablen**, um alle Thema- und Globalvariablen samt Laufzeitwert (im Test-Tab) einzusehen.  
+* Den **Themenprüfer**, den du jederzeit aus dem Authoring-Canvas starten kannst, um vom System erkennbare Fehler aufzudecken, die eine Veröffentlichung verhindern würden.  
+* **Details**, um auf die Eigenschaften des Themas zuzugreifen.
 
-**More** - Analytics shows topic usage metrics; Open code editor switches the user interface from a no-code/low-code experience to a pro-code view of the underlying YAML configuration of the topic that developers can edit directly. For some system topics, a Reset to default option is available to revert the topic content to its original state.
+**Mehr** – Unter **Analysen** siehst du Nutzungsmetriken zum Thema; **Code-Editor öffnen** wechselt von der Low-Code-Oberfläche in eine Pro-Code-Ansicht der zugrunde-liegenden YAML-Konfiguration. Bei einigen Systemthemen steht **Auf Standard zurücksetzen** zur Verfügung, um den ursprünglichen Inhalt wiederherzustellen.
 
-The **Save** button saves the topic changes.
+Die Schaltfläche **Speichern** sichert die Änderungen am Thema.
 
-The **Topic details** menu allows the agent author to update the topic Name, Display name, Description, and Status (active/inactive). When generative AI orchestration is enabled, the display name is replaced with model display name, and model description becomes available. This menu also allows the configuration of inputs and outputs. The inputs can be automatically slot filled when using generative AI as the orchestrator.
+Das Menü **Themen-Details** erlaubt es, Name, Anzeigename, Beschreibung und Status (aktiv/inaktiv) zu aktualisieren. Ist die generative KI-Orchestrierung aktiviert, ersetzt der Modell-Anzeigename den Anzeigenamen; zusätzlich wird eine Modellbeschreibung verfügbar. Hier lassen sich auch Eingabe- und Ausgabeparameter definieren, die bei generativer Orchestrierung automatisch per Slot-Filling gesetzt werden können.
 
-The **trigger switcher** button is present at the **Trigger** node of every topic. By default, new topics have the **Phrases** trigger (or are triggered by Copilot, when generative AI orchestration is enabled), but this can be switched to Message received, Event received, Activity received, Conversation update received, Invoke received, Redirect, and Inactivity.
+Der **Trigger-Umschalter** befindet sich am **Trigger**-Knoten jedes Themas. Standardmäßig verwenden neue Themen den **Phrasen**-Trigger (oder werden durch Copilot ausgelöst, wenn generative Orchestrierung aktiv ist). Der Trigger kann auf „Nachricht empfangen“, „Ereignis empfangen“, „Aktivität empfangen“, „Conversation update“, „Invoke empfangen“, **Redirect** oder **Inaktivität** umgestellt werden.
 
-**Add a new node** - Allows the agent author to add activities to a topic, such as sending a message, asking a question, and adding a condition, to build the dialog logic.
+**Neuen Knoten hinzufügen** – Fügt Aktivitäten wie Nachricht senden, Frage stellen oder Bedingung hinzufügen hinzu, um die Dialoglogik aufzubauen.
 
-**Authoring canvas controls** - You can use these controls to navigate the authoring canvas, which can become large for extensive topics. The included controls are a map of the canvas, zoom, hand, selection, and reset.
+**Canvas-Steuerelemente** – Werkzeuge zur Navigation im Authoring-Canvas, der bei umfangreichen Themen sehr groß werden kann. Enthält Mini-Map, Zoom, Hand-Tool, Auswahl und Zurücksetzen.
+
 
 
 ** **
@@ -112,7 +98,7 @@ Hier findest du alle Tasks des Workshops:
 
 1. [Task 01 – Prompt-Agent](task01.md)  
 2. [Task 02 – Unternehmensdaten](task02.md)  
-3. [Task 03 – Pre-built Agent](task03.md)  
+3. [Task 03: Überblick über die Benutzeroberfläche von Microsoft Copilot Studio](task03.md)  
 4. [Task 04 – Copilot-Topic](task04.md)  
-5. [Task 05 – Knowledge & Boosting](task05.md)  
+5. [Task 05: Ausblick Wissensquellen](task05.md)  
 6. [Task 06 – Question / Message / Condition](task06.md)

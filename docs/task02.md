@@ -3,7 +3,10 @@
 Finde innerhalb des neuen Assistenten den Reiter “**Wissen**” und drück “**Wissen hinzufügen**”
 ![image6.png](assets/img/image6.png)
 
+In dem Sharepoint sind Dokumenten über die Aufträge aus Q1 und die Vertragsbedingungen der Contoso Electronics enthalten.
+
 Wähle “**SharePoint”** aus und füge folgenden Link hinzu: **"https://m365x29017473.sharepoint.com/sites/Retail-Operations/Freigegebene%20Dokumente/"**
+
 
 Hierzu Link einfügen URL in Kasten eintragen, oben “**Hinzufügen**” drücken und dann die Eingabe durch das untere “**Hinzufügen**” bestätigen:
 
@@ -16,6 +19,8 @@ Der Sharepoint sollte jetzt unter Wissen eingetragen sein:
 Man kann immer direkt in der Umgebung den Agenten Testen:
 
 ![image9.jpeg](assets/img/image9.jpeg)
+
+Nachdem
 
 In dem hinzugefügten SharePoint liegen Informationen zu den Aufträgen aus Q1 sowie der Vertragsbedingungen der Contoso Electronics. Wir testen den Bot mit folgender **Eingabe**: **“****Was war unsere größter Auftrag in Q1****?”**
 
@@ -40,13 +45,13 @@ Wir haben jetzt erfolgreich unseren Agenten mit internen Daten angereichert! Las
 
 
 ** **
-Hier geht es zum nächsten Task: [Task 03 – Pre-built Agent](task03.md)
+Hier geht es zum nächsten Task: [Task 03: Überblick über die Benutzeroberfläche von Microsoft Copilot Studio](task03.md)
 
 Hier findest du alle Tasks des Workshops:
 
 1. [Task 01 – Prompt-Agent](task01.md)  
 2. [Task 02 – Unternehmensdaten](task02.md)  
-3. [Task 03 – Pre-built Agent](task03.md)  
+3. [Task 03: Überblick über die Benutzeroberfläche von Microsoft Copilot Studio](task03.md)  
 4. [Task 04 – Copilot-Topic](task04.md)  
-5. [Task 05 – Knowledge & Boosting](task05.md)  
+5. [Task 05: Ausblick Wissensquellen](task05.md)  
 6. [Task 06 – Question / Message / Condition](task06.md)
