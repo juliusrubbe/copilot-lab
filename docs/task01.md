@@ -2,6 +2,8 @@
 
 Gehe auf folgenden Link: [Copilot Studio](https://copilotstudio.microsoft.com/)
 
+Anmeldung mit den vorliegenden Zugangsdaten. 
+
 Während du für die Dauer dieses Labors den vorgefertigten Agenten nutzt, wollen wir uns ansehen, wie du mit Copilot Studio ganz schnell einen eigenen Agenten mit grundlegenden Einstellungen über Prompts anlegst.
 
 Wähle im linken Menü „**Startseite**“ aus.
